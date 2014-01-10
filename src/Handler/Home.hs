@@ -11,15 +11,15 @@ getHomeR = defaultLayout $ do
     [whamlet|
         <div .container-fluid>
           <div .row-fluid>
-            <h1>Welcome to the web service
+            <h1>URI Utils
         
           <div .row-fluid>
             <div .span6>
-                <h2>Url Parsing
+                <h2>URI Parsing
                 <p>
-                    Url
+                    URI
                     <input #urlinput type=string value="http://google.com">
-                    is
+                    is made up of:
                     <br />
                     <pre #urloutput>
     |]
