@@ -1,10 +1,3 @@
-{-
-
-A common practice in many Haskell applications is to define a
-helper module for each project that provides commonly needed
-imports. The purpose of this module is purely convenience.
-
--}
 module Import
     ( module Import
     , module X
